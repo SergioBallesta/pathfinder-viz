@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #0a0a1a;
+  color: #e0e0e0;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a3e;
+  border-radius: 3px;
+}
+
+/* Range input custom */
+input[type="range"] {
+  height: 4px;
+  border-radius: 2px;
+  background: #1a1a3e;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00bcd4;
+  cursor: pointer;
+  border: 2px solid #0a0a1a;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00bcd4;
+  cursor: pointer;
+  border: 2px solid #0a0a1a;
+}
+
+/* Button hover states */
+button:not(:disabled):hover {
+  filter: brightness(1.2);
+}
+button:not(:disabled):active {
+  transform: scale(0.97);
+}
+button {
+  transition: all 0.15s ease;
+}
+
+/* Selection color */
+::selection {
+  background: #00bcd4;
+  color: #000;
+}

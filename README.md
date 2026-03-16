@@ -14,6 +14,10 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd600?style=flat-square)](./LICENSE)
 
+<a href="https://sergioballesta.github.io/pathfinder-viz/" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20PROBAR%20DEMO-4CAF50?style=for-the-badge&logoColor=white" alt="PROBAR DEMO" />
+</a>
+
 [Demo en vivo](#-demo) · [Instalación](#-instalación) · [Algoritmos](#-algoritmos) · [Controles](#-controles)
 
 </div>
